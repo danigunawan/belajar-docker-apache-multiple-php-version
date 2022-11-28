@@ -9,18 +9,18 @@ Beberapa versi php dalam container Versi PHP yang disupport :
 - 8.1
 
 # Struktur Folder dan File
-Apps/ : adalah folder apps terdapat penempatan path untuk apps dengan spesifik php version
-bin/ : terdapat setup dan binary untuk menjalankan dan mendukung php container seperti setup ssh, build image docker php version, dan lain-lain
-config/ : berisi konfigurasi
-.gitignore : file gitignore untuk memfilter yang akan di push pada repository
-Dockerfile-5.6 : File Dockerize PHP5.6
-Dockerfile-7.0 : File Dockerize PHP7.0
-Dockerfile-7.2 : File Dockerize PHP7.2
-Dockerfile-7.3 : File Dockerize PHP7.3
-Dockerfile-7.4 : File Dockerize PHP7.4
-Dockerfile-8.1 : File Dockerize PHP8.1
-Dockerfile-ssh : File Dockerize SSH
-docker-compose.yaml : File Docker Compose
+- Apps/ : adalah folder apps terdapat penempatan path untuk apps dengan spesifik php version
+- bin/ : terdapat setup dan binary untuk menjalankan dan mendukung php container seperti setup ssh, build image docker php version, dan lain-lain
+- config/ : berisi konfigurasi
+- .gitignore : file gitignore untuk memfilter yang akan di push pada repository
+- Dockerfile-5.6 : File Dockerize PHP5.6
+- Dockerfile-7.0 : File Dockerize PHP7.0
+- Dockerfile-7.2 : File Dockerize PHP7.2
+- Dockerfile-7.3 : File Dockerize PHP7.3
+- Dockerfile-7.4 : File Dockerize PHP7.4
+- Dockerfile-8.1 : File Dockerize PHP8.1
+- Dockerfile-ssh : File Dockerize SSH
+- docker-compose.yaml : File Docker Compose
 
 User yang digunakan untuk uid dan gid : 1005
 
